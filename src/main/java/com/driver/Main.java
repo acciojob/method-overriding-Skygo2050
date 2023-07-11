@@ -17,7 +17,12 @@ public class Main {
 
     public static void main(String[] args) {
         B obj = new B();
-        String result = obj.meth();
-        System.out.println(result);
+
+          obj.meth();
+
+        B obj1 = new B();
+
+        obj1.meth();
+
     }
 }
